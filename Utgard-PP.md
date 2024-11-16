@@ -73,7 +73,7 @@ AA aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa
 
 Note that bits 32-33 of the opcode "overflowed" into bits 0-1 of the next word.
 
-##Registers
+## Registers
 
 It appears there are 6 vec4 registers actually used out of up to 12 possible, which are encoded as four bits in a control field. The last 4 registers are read-only, "pipeline registers" and are hardcoded as:
 
